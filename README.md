@@ -64,8 +64,8 @@ python test.py
 ```
 
 ## Acknowledgments
-Our code is based on [LLFlow](https://github.com/wyf0912/LLFlow) 
+Our code is based on [LLFlow](https://github.com/wyf0912/LLFlow).
 
 ## Contact
 If you have any questions, please feel free to contact the authors via
-[chentiesheng147@163.com](chentiesheng147@163.com)
+[chentiesheng147@163.com](chentiesheng147@163.com).
