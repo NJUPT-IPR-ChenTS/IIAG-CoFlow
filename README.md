@@ -41,6 +41,21 @@ on several benchmark low-light datasets.**
 
 * SID & SMID & SDSD (indoor & outdoor): Please refer to the paper
 [SNR-aware Low-Light Image Enhancement (CVPR 2022)](https://github.com/dvlab-research/SNR-Aware-Low-Light-Enhance).
-## Pretrained model
+
+## Testing
+### Pre-trained Models
 Please download our pre-trained models via the following links 
 [baiduyun(extracted code): 33ee](https://pan.baidu.com/s/1Ke310o5Rv2MP_fDNWb96Hg?pwd=33ee)
+### Run the testing code
+You can test the model with paired data and obtain the evaluation metrics. You need to specify the data path `dataroot_LR`, `dataroot_GT`, and `model path` model_path in the config file. Then run
+
+```c
+python test.py
+```
+
+## Acknowledgments
+Our code is based on [LLFlow](https://github.com/wyf0912/LLFlow) 
+
+## Contact
+If you have any questions, please feel free to contact the authors via
+[chentiesheng147@163.com](chentiesheng147@163.com)
